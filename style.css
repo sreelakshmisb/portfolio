@@ -2,22 +2,22 @@ body {
   font-family: 'Segoe UI', Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f4f4f4;
-  color: #222;
+  background: #181818;
+  color: #e0e0e0;
 }
 header {
-  background: #222;
-  color: #fff;
+  background: #23272a;
+  color: #e0e0e0;
   padding: 2rem 0;
   text-align: center;
 }
 main {
   max-width: 900px;
   margin: 2rem auto;
-  background: #fff;
+  background: #23272a;
   padding: 2rem;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 .profile-img {
   width: 120px;
@@ -33,11 +33,11 @@ main {
   flex-wrap: wrap;
 }
 .project {
-  background: #f9f9f9;
+  background: #202225;
   padding: 1rem;
   border-radius: 6px;
   flex: 1 1 200px;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
 }
 #contact-form {
   display: flex;
@@ -48,12 +48,14 @@ main {
 }
 #contact-form input, #contact-form textarea {
   padding: 0.75rem;
-  border: 1px solid #ccc;
+  border: 1px solid #444;
+  background: #23272a;
+  color: #e0e0e0;
   border-radius: 4px;
   font-size: 1rem;
 }
 #contact-form button {
-  background: #222;
+  background: #5865f2;
   color: #fff;
   border: none;
   padding: 0.75rem;
@@ -63,12 +65,12 @@ main {
   transition: background 0.2s;
 }
 #contact-form button:hover {
-  background: #444;
+  background: #4752c4;
 }
 footer {
   text-align: center;
   padding: 1rem 0;
-  background: #222;
-  color: #fff;
+  background: #23272a;
+  color: #e0e0e0;
   margin-top: 2rem;
 }
