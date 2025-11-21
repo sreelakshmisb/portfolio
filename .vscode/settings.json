@@ -1,0 +1,12 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.vscode": false
+  },
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Default Dark+"
+}
